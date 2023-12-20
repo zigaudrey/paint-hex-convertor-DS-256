@@ -26,5 +26,5 @@ Python Scripts that convert Picture into Bin file and vice-versa for DS 256-Colo
 6. Two (or three) images files will be created, ready to be edited in drawing tools
 
 # Similar tools
-[Paint - Hex Convertor Scripts (Sega Genesis / Megadrive)](https://github.com/zigaudrey/paint-hex-convertor-MSX)
-[Paint-Hex Convertor (Gameboy Advance/DS 16-colors)](https://github.com/zigaudrey/paint-hex-convertor-GBA-DS)
++ [Paint - Hex Convertor Scripts (Sega Genesis / Megadrive)](https://github.com/zigaudrey/paint-hex-convertor-MSX)
++ [Paint - Hex Convertor (Gameboy Advance/DS 16-colors)](https://github.com/zigaudrey/paint-hex-convertor-GBA-DS)
