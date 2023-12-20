@@ -13,16 +13,16 @@ Python Scripts that convert Picture into Bin file and vice-versa for DS 256-Colo
 1. Open one of the scripts in command prompt for PIL lib to work
 
 # For Paint-to-hex Script
-3. Choose a palette (image). **It have to have a total of 16 pixels**
+3. Choose a palette (image). **It have to have a total of 256 pixels**
 4. Choose a sprite sheet (image). **Its dimensions should both be a divisible of 8**
-+ You can choose to generate Nitro files or bin files
-5. **Two bin/Nitro files will be created**, ready to replace data in DS Files
+5. [You can choose to generate Nitro files or bin files]
+6. **Two bin/Nitro files will be created**, ready to replace data in DS Files
 
 # For Hex-to-paint Script
 3. Choose a palette (bin file). **Its lenght has to be 512.** If many, choose the right one that help with edit
-+ If there is a duplicate colors, **you can choose to generate another palette image with only used colors**
-4. Choose a sprite sheet (bin file). **Its lenght has to be a divisble of 64 (one tile)**
-5. **Choose the number of tiles for the width**
+4. [If there is are duplicates colors, **you can choose to generate another palette image with only used colors**]
+5. Choose a sprite sheet (bin file). **Its lenght has to be a divisble of 64 (one tile)**
+6. **Choose the number of tiles for the width**
 6. **Two (or three) images files will be created**, ready to be edited in drawing tools
 
 # Similar tools
