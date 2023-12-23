@@ -7,10 +7,11 @@ Python Scripts that convert Picture into Bin file and vice-versa for DS 256-Colo
 ### DS
 + **Use [Tinker](https://www.romhacking.net/utilities/817/) to extract NCGR and NCLR.** The NCGR header has to show 04 00 00 00 like below:
 ![NCGR Header 4 Depth Showing](https://github.com/zigaudrey/paint-hex-convertor-DS-256/assets/129554573/294f6c04-cf5e-4192-b828-ae6b88f7d8e1)
++ If there is a compressed data (LZ10/lZ11), **decompress it and extract the new one**. Be sure **to check the hex file if there is the NCGR or NCLR tag**
 
 # Setup
-1. If you don't have PIL, open the command prompt and install it with PIP
-1. Open one of the scripts in command prompt for PIL lib to work
+1. If you don't have PIL, **open the command prompt and install it with PIP**
+1. **Open one of the scripts in command prompt for PIL lib to work**
 
 # For Paint-to-hex Script
 3. Choose a palette (image). **It have to have a total of 256 pixels**
@@ -20,7 +21,7 @@ Python Scripts that convert Picture into Bin file and vice-versa for DS 256-Colo
 
 # For Hex-to-paint Script
 3. Choose a palette (bin file). **Its lenght has to be 512.** If many, choose the right one that help with edit
-4. _If there is are duplicates colors, **you can choose to generate another palette image with only used colors**_
+4. _If there are duplicates colors, **you can choose to generate another palette image with only used colors**_
 5. Choose a sprite sheet (bin file). **Its lenght has to be a divisble of 64 (one tile)**
 6. **Choose the number of tiles for the width**
 6. **Two (or three) images files will be created**, ready to be edited in drawing tools
