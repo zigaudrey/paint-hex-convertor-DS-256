@@ -103,8 +103,10 @@ if len(PAL_path) != 0:
                     spr_END = 16
                 else:
                     spr_END = 0
+
+                lenght = len(BIN_file) - spr_POINTER - spr_END
                 
-                if (len(BIN_file) - spr_POINTER - spr_END) % 64 == 0:
+                if lenght % 64 == 0:
                     
                     n=len(BIN_name) - 1
                     SHORT_name = ""
@@ -121,8 +123,8 @@ if len(PAL_path) != 0:
                         tile_COUNT = int(input("Choose Tile Number (4 to 32)"))
                         if 4 > tile_COUNT or tile_COUNT > 32 :
                             tile_COUNT = 0
-
-                    BIN_len = len(BIN_file) + (len(BIN_file) % (tile_COUNT * 64))
+                    
+                    BIN_len = lenght + (lenght % (tile_COUNT * 64))
                     w = 8 * tile_COUNT
                     h = BIN_len // (tile_COUNT * 64) * 8
 
